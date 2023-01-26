@@ -1,0 +1,64 @@
+MatMul_parallel.h:25:9: optimized: loop vectorized using 16 byte vectors
+MatMul_parallel.h:44:31: optimized: loop vectorized using 32 byte vectors
+MatMul_parallel.h:229:49: optimized: loop vectorized using 32 byte vectors
+MatMul_parallel.h:206:39: optimized: loop vectorized using 32 byte vectors
+MatMul_parallel.h:286:23: optimized: loop vectorized using 16 byte vectors
+MatMul_parallel.h:279:23: optimized: loop vectorized using 16 byte vectors
+MatMul_parallel.h:122:23: optimized: loop vectorized using 16 byte vectors
+MatMul_parallel.h:115:23: optimized: loop vectorized using 16 byte vectors
+
+MatMul_parallel.h:40:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:40:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:122:5: optimized: basic block part vectorized using 32 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:185:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:185:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:286:5: optimized: basic block part vectorized using 32 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:79:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+MatMul_parallel.h:62:9: optimized: basic block part vectorized using 16 byte vectors
+
+MatMul_simple.h:56:27: optimized: loop vectorized using 32 byte vectors
+MatMul_simple.h:70:27: optimized: loop vectorized using 32 byte vectors
+MatMul_simple.h:39:31: optimized: loop vectorized using 32 byte vectors
+MatMul_simple.h:110:23: optimized: loop vectorized using 16 byte vectors
+MatMul_simple.h:103:23: optimized: loop vectorized using 16 byte vectors
+
+MatMul_cache.h:135:23: optimized: loop vectorized using 16 byte vectors
+MatMul_cache.h:128:23: optimized: loop vectorized using 16 byte vectors
+MatMul_cache.h:59:45: optimized: loop vectorized using 32 byte vectors
+MatMul_cache.h:36:35: optimized: loop vectorized using 32 byte vectors

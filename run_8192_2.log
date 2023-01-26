@@ -1,0 +1,80 @@
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 256
+Strass - Execution time: 57088 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 512
+Strass - Execution time: 62425 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 1024
+Strass - Execution time: 64824 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 2048
+Strass - Execution time: 128237 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 256
+Strass Cache Opt - Execution time: 27318 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 512
+Strass Cache Opt - Execution time: 29296 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 1024
+Strass Cache Opt - Execution time: 34684 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 2048
+Strass Cache Opt - Execution time: 42307 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 256
+Strass Par - Execution time: 38752 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 512
+Strass Par - Execution time: 37467 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 1024
+Strass Par - Execution time: 38119 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 2048
+Strass Par - Execution time: 68056 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 256
+Strass Par Cache Opt- Execution time: 18693 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 512
+Strass Par Cache Opt- Execution time: 17781 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 1024
+Strass Par Cache Opt- Execution time: 19925 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 2048
+Strass Par Cache Opt- Execution time: 23063 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 256
+Strass Par Dep - Execution time: 21954 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 512
+Strass Par Dep - Execution time: 23481 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 1024
+Strass Par Dep - Execution time: 25008 ms
+THREAD NUM: 2
+MATRIX SIZE: 8192
+STRASS LIMIT: 2048
+Strass Par Dep - Execution time: 27874 ms

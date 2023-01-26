@@ -1,0 +1,742 @@
+MatMul_parallel.h:22:35: missed: couldn't vectorize loop
+MatMul_parallel.h:22:35: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+MatMul_parallel.h:22:35: missed: couldn't vectorize loop
+MatMul_parallel.h:22:35: missed: not vectorized: inner-loop count not invariant.
+MatMul_parallel.h:21:27: missed: couldn't vectorize loop
+MatMul_parallel.h:21:27: missed: Loop costings may not be worthwhile.
+MatMul_parallel.h:19:9: missed: statement clobbers memory: _13 = __builtin_GOMP_loop_nonmonotonic_dynamic_start (1, _11, 1, 1, &.istart0.16, &.iend0.17);
+MatMul_parallel.h:19:9: missed: statement clobbers memory: _24 = __builtin_GOMP_loop_nonmonotonic_dynamic_next (&.istart0.16, &.iend0.17);
+MatMul_parallel.h:19:9: missed: statement clobbers memory: __builtin_GOMP_loop_end_nowait ();
+MatMul_parallel.h:33:23: missed: couldn't vectorize loop
+MatMul_parallel.h:33:23: missed: not vectorized: multiple nested loops.
+MatMul_parallel.h:38:31: missed: couldn't vectorize loop
+MatMul_parallel.h:38:31: missed: not vectorized: control flow in loop.
+MatMul_parallel.h:38:31: missed: couldn't vectorize loop
+MatMul_parallel.h:38:31: missed: Loop costings may not be worthwhile.
+MatMul_parallel.h:32:9: missed: statement clobbers memory: __builtin_GOMP_barrier ();
+MatMul_parallel.h:50:23: missed: couldn't vectorize loop
+MatMul_parallel.h:50:23: missed: not vectorized: control flow in loop.
+MatMul_parallel.h:49:9: missed: statement clobbers memory: __builtin_GOMP_barrier ();
+MatMul_parallel.h:61:23: missed: couldn't vectorize loop
+MatMul_parallel.h:61:23: missed: not vectorized: control flow in loop.
+MatMul_parallel.h:60:9: missed: statement clobbers memory: __builtin_GOMP_barrier ();
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.1, &.omp_data_o.42, 0B, 24, 8, 1, 8, &D.64207, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.1, &.omp_data_o.42, 0B, 24, 8, 1, 8, &D.64207, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.2, &.omp_data_o.43, 0B, 24, 8, 1, 8, &D.64214, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.2, &.omp_data_o.43, 0B, 24, 8, 1, 8, &D.64214, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.3, &.omp_data_o.44, 0B, 16, 8, 1, 8, &D.64221, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.3, &.omp_data_o.44, 0B, 16, 8, 1, 8, &D.64221, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.4, &.omp_data_o.45, 0B, 24, 8, 1, 8, &D.64230, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.4, &.omp_data_o.45, 0B, 24, 8, 1, 8, &D.64230, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.5, &.omp_data_o.46, 0B, 24, 8, 1, 8, &D.64237, 0);
+MatMul_parDep.h:58:9: missed: statement clobbers memory: __builtin_GOMP_task (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.5, &.omp_data_o.46, 0B, 24, 8, 1, 8, &D.64237, 0);
+MatMul.h:30:49: missed: statement clobbers memory: _5 = operator new [] (iftmp.0_4);
+MatMul.h:23:6: missed: statement clobbers memory: __builtin_memset (_5, 0, _13);
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_parDep.h:95:17: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M2 ADD1 - START", 15);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_63);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _79 = OBJ_TYPE_REF(_73;_63->6) (_63, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _61 = std::basic_ostream<char>::put (&cout, prephitmp_134);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_61);
+MatMul_parDep.h:95:17: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parDep.h:98:17: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M2 ADD1 - END", 13);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_82);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _98 = OBJ_TYPE_REF(_92;_82->6) (_82, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _24 = std::basic_ostream<char>::put (&cout, prephitmp_163);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_24);
+MatMul_parDep.h:98:17: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_parDep.h:75:9: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M1 ADD2 - START", 15);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_63);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _79 = OBJ_TYPE_REF(_73;_63->6) (_63, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _61 = std::basic_ostream<char>::put (&cout, prephitmp_134);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_61);
+MatMul_parDep.h:75:9: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parDep.h:78:9: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M1 ADD2 - END", 13);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_82);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _98 = OBJ_TYPE_REF(_92;_82->6) (_82, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _24 = std::basic_ostream<char>::put (&cout, prephitmp_163);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_24);
+MatMul_parDep.h:78:9: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_parDep.h:65:9: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M1 ADD1 - START", 15);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_63);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _79 = OBJ_TYPE_REF(_73;_63->6) (_63, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _61 = std::basic_ostream<char>::put (&cout, prephitmp_134);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_61);
+MatMul_parDep.h:65:9: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parDep.h:68:9: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M1 ADD1 - END", 13);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_82);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _98 = OBJ_TYPE_REF(_92;_82->6) (_82, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _24 = std::basic_ostream<char>::put (&cout, prephitmp_163);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_24);
+MatMul_parDep.h:68:9: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul.h:30:49: missed: statement clobbers memory: _18 = operator new [] (_22);
+MatMul.h:23:6: missed: statement clobbers memory: __builtin_memset (_18, 0, _29);
+MatMul.h:32:46: missed: statement clobbers memory: _12 = operator new [] (_22);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (mat$mat_4);
+MatMul.h:40:6: missed: couldn't vectorize loop
+MatMul.h:40:6: missed: not vectorized: control flow in loop.
+MatMul.h:42:27: missed: couldn't vectorize loop
+/usr/include/c++/9/ostream:202:29: missed: statement clobbers memory: _7 = std::basic_ostream<char>::_M_insert<long long int> (&cout, _18);
+/usr/include/c++/9/ostream:202:29: missed: statement clobbers memory: _7 = std::basic_ostream<char>::_M_insert<long long int> (&cout, _18);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_7, " ", 1);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_31);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _47 = OBJ_TYPE_REF(_41;_31->6) (_31, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _29 = std::basic_ostream<char>::put (&cout, prephitmp_69);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_29);
+MatMul.h:50:23: missed: couldn't vectorize loop
+MatMul.h:52:30: missed: statement clobbers memory: _1 = rand ();
+MatMul.h:51:27: missed: couldn't vectorize loop
+MatMul.h:52:30: missed: statement clobbers memory: _1 = rand ();
+MatMul.h:52:30: missed: statement clobbers memory: _1 = rand ();
+MatMul.h:58:12: missed: not vectorized: more than one data ref in stmt: *sub11_16(D) = mat;
+MatMul.h:61:12: missed: not vectorized: more than one data ref in stmt: *sub12_20(D) = mat;
+MatMul.h:65:12: missed: not vectorized: more than one data ref in stmt: *sub21_24(D) = mat;
+MatMul.h:69:12: missed: not vectorized: more than one data ref in stmt: *sub22_28(D) = mat;
+MatMul.h:77:15: missed: couldn't vectorize loop
+MatMul.h:77:15: missed: not vectorized: number of iterations cannot be computed.
+MatMul.h:85:64: missed: statement clobbers memory: _14 = operator new [] (iftmp.7_12);
+MatMul.h:85:64: missed: statement clobbers memory: __cxa_throw_bad_array_new_length ();
+MatMul.h:84:6: missed: statement clobbers memory: __builtin_memset (_14, 0, _7);
+MatMul.h:89:15: missed: statement clobbers memory: operator delete [] (matM_buf.9_1);
+MatMul.h:19:64: missed: couldn't vectorize loop
+MatMul.h:19:64: missed: not vectorized: control flow in loop.
+MatMul.h:19:73: missed: couldn't vectorize loop
+MatMul.h:19:73: missed: not vectorized: control flow in loop.
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Matrix sizes don\'t match!", 25);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_41);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _57 = OBJ_TYPE_REF(_51;_41->6) (_41, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _39 = std::basic_ostream<char>::put (&cout, prephitmp_54);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_39);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Matrix values don\'t match!", 26);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_68);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _84 = OBJ_TYPE_REF(_78;_68->6) (_68, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _66 = std::basic_ostream<char>::put (&cout, prephitmp_64);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_66);
+MatMul_simple.h:18:23: missed: couldn't vectorize loop
+MatMul_simple.h:18:23: missed: not vectorized: inner-loop count not invariant.
+MatMul_simple.h:19:27: missed: couldn't vectorize loop
+MatMul_simple.h:19:27: missed: Loop costings may not be worthwhile.
+MatMul_simple.h:18:23: missed: couldn't vectorize loop
+MatMul_simple.h:18:23: missed: not vectorized: inner-loop count not invariant.
+MatMul_simple.h:19:27: missed: couldn't vectorize loop
+MatMul_simple.h:19:27: missed: Loop costings may not be worthwhile.
+MatMul_simple.h:32:23: missed: couldn't vectorize loop
+MatMul_simple.h:32:23: missed: not vectorized: multiple nested loops.
+MatMul_simple.h:33:27: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:35:31: missed: couldn't vectorize loop
+MatMul_simple.h:35:31: missed: Loop costings may not be worthwhile.
+MatMul_simple.h:18:23: missed: couldn't vectorize loop
+MatMul_simple.h:18:23: missed: not vectorized: inner-loop count not invariant.
+MatMul_simple.h:19:27: missed: couldn't vectorize loop
+MatMul_simple.h:19:27: missed: Loop costings may not be worthwhile.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul.h:77:15: missed: couldn't vectorize loop
+MatMul.h:77:15: missed: not vectorized: number of iterations cannot be computed.
+MatMul_simple.h:65:21: missed: statement clobbers memory: matMulSimple (matA, matB, matC);
+MatMul_simple.h:100:19: missed: statement clobbers memory: matMulStrassen (matTmp[0], matTmp[1], matM[0]);
+MatMul_simple.h:104:19: missed: statement clobbers memory: matMulStrassen (matTmp[2], matB11, matM[1]);
+MatMul_simple.h:104:19: missed: statement clobbers memory: matMulStrassen (matTmp[2], matB11, matM[1]);
+MatMul_simple.h:108:19: missed: statement clobbers memory: matMulStrassen (matA11, matTmp[3], matM[2]);
+MatMul_simple.h:108:19: missed: statement clobbers memory: matMulStrassen (matA11, matTmp[3], matM[2]);
+MatMul_simple.h:112:19: missed: statement clobbers memory: matMulStrassen (matA22, matTmp[4], matM[3]);
+MatMul_simple.h:112:19: missed: statement clobbers memory: matMulStrassen (matA22, matTmp[4], matM[3]);
+MatMul_simple.h:116:19: missed: statement clobbers memory: matMulStrassen (matTmp[5], matB22, matM[4]);
+MatMul_simple.h:116:19: missed: statement clobbers memory: matMulStrassen (matTmp[5], matB22, matM[4]);
+MatMul_simple.h:121:19: missed: statement clobbers memory: matMulStrassen (matTmp[6], matTmp[7], matM[5]);
+MatMul_simple.h:126:19: missed: statement clobbers memory: matMulStrassen (matTmp[8], matTmp[9], matM[6]);
+MatMul_parDep.h:105:17: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M2 MULT - START", 15);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_34);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _50 = OBJ_TYPE_REF(_44;_34->6) (_34, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _32 = std::basic_ostream<char>::put (&cout, prephitmp_75);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_32);
+MatMul_parDep.h:105:17: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parDep.h:107:23: missed: not vectorized: more than one data ref in stmt: D.64146 = *_5[1];
+MatMul_parDep.h:107:23: missed: not vectorized: more than one data ref in stmt: D.64148 = *_7;
+MatMul_parDep.h:107:23: missed: not vectorized: more than one data ref in stmt: D.64150 = *_9[2];
+MatMul_parDep.h:107:23: missed: statement clobbers memory: matMulStrassen (D.64150, D.64148, D.64146);
+MatMul_parDep.h:108:17: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M2 MULT - END", 13);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_53);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _69 = OBJ_TYPE_REF(_63;_53->6) (_53, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _24 = std::basic_ostream<char>::put (&cout, prephitmp_65);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_24);
+MatMul_parDep.h:108:17: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parDep.h:85:9: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M1 REC - START", 14);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_33);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _49 = OBJ_TYPE_REF(_43;_33->6) (_33, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _31 = std::basic_ostream<char>::put (&cout, prephitmp_64);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_31);
+MatMul_parDep.h:85:9: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parDep.h:87:31: missed: not vectorized: more than one data ref in stmt: D.64172 = *_5[0];
+MatMul_parDep.h:87:31: missed: not vectorized: more than one data ref in stmt: D.64174 = *_7[1];
+MatMul_parDep.h:87:31: missed: not vectorized: more than one data ref in stmt: D.64175 = *_7[0];
+MatMul_parDep.h:87:31: missed: statement clobbers memory: matMulStrassen (D.64175, D.64174, D.64172);
+MatMul_parDep.h:88:9: missed: statement clobbers memory: __builtin_GOMP_critical_start ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M1 REC - END", 12);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_52);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _68 = OBJ_TYPE_REF(_62;_52->6) (_52, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _23 = std::basic_ostream<char>::put (&cout, prephitmp_74);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_23);
+MatMul_parDep.h:88:9: missed: statement clobbers memory: __builtin_GOMP_critical_end ();
+MatMul_parallel.h:16:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15transposeMatPar5Mat_t._omp_fn.0, &.omp_data_o.15, 0, 0);
+MatMul_parallel.h:29:6: missed: not vectorized: more than one data ref in stmt: mat = matB;
+MatMul_parallel.h:29:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15transposeMatPar5Mat_t._omp_fn.0, &.omp_data_o.15, 0, 0);
+MatMul_parallel.h:29:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15matMulSimplePar5Mat_tS_S_._omp_fn.0, &.omp_data_o.21, 0, 0);
+MatMul_parallel.h:29:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15matMulSimplePar5Mat_tS_S_._omp_fn.0, &.omp_data_o.21, 0, 0);
+MatMul_parallel.h:29:6: missed: not vectorized: more than one data ref in stmt: mat = matB;
+MatMul_parallel.h:29:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15transposeMatPar5Mat_t._omp_fn.0, &.omp_data_o.15, 0, 0);
+MatMul_parallel.h:48:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:48:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:59:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:59:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul.h:77:15: missed: couldn't vectorize loop
+MatMul.h:77:15: missed: not vectorized: number of iterations cannot be computed.
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matA = matA;
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matB;
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matC;
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: mat = matB;
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15transposeMatPar5Mat_t._omp_fn.0, &.omp_data_o.15, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15matMulSimplePar5Mat_tS_S_._omp_fn.0, &.omp_data_o.21, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15matMulSimplePar5Mat_tS_S_._omp_fn.0, &.omp_data_o.21, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: mat = matB;
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z15transposeMatPar5Mat_t._omp_fn.0, &.omp_data_o.15, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[0];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[1];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[1];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:108:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[0], matTmp[1], matM[0]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[2];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[2];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:112:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[2], matB11, matM[1]);
+MatMul_parallel.h:112:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[2], matB11, matM[1]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[3];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[3];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:116:22: missed: statement clobbers memory: matMulStrassenPar (matA11, matTmp[3], matM[2]);
+MatMul_parallel.h:116:22: missed: statement clobbers memory: matMulStrassenPar (matA11, matTmp[3], matM[2]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[4];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[4];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:120:22: missed: statement clobbers memory: matMulStrassenPar (matA22, matTmp[4], matM[3]);
+MatMul_parallel.h:120:22: missed: statement clobbers memory: matMulStrassenPar (matA22, matTmp[4], matM[3]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[5];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[5];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:124:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[5], matB22, matM[4]);
+MatMul_parallel.h:124:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[5], matB22, matM[4]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[6];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[6];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[7];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[7];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:129:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[6], matTmp[7], matM[5]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[8];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[8];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[9];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matC = matTmp[9];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:134:22: missed: statement clobbers memory: matMulStrassenPar (matTmp[8], matTmp[9], matM[6]);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matA = matM[0];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[3];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[4];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[4];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[6];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[6];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matA = matM[2];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[4];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matA = matM[1];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[3];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matA = matM[0];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[1];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matSubPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.29, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[2];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[2];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[5];
+MatMul_parallel.h:70:6: missed: not vectorized: more than one data ref in stmt: matB = matM[5];
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_parallel.h:70:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z9matAddPar5Mat_tS_S_._omp_fn.0, &.omp_data_o.25, 0, 0);
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul.h:77:15: missed: couldn't vectorize loop
+MatMul.h:77:15: missed: not vectorized: number of iterations cannot be computed.
+MatMul_parDep.h:22:21: missed: statement clobbers memory: matMulSimple (matA, matB, matC);
+MatMul_parDep.h:18:6: missed: statement clobbers memory: __builtin_GOMP_parallel (_Z20matMulStrassenParDep5Mat_tS_S_._omp_fn.0, &.omp_data_o.47, 0, 0);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M3 SUB - START", 14);
+/usr/include/c++/9/bits/basic_ios.h:50:18: missed: statement clobbers memory: std::__throw_bad_cast ();
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1018);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1034 = OBJ_TYPE_REF(_1028;_1018->6) (_1018, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _1016 = std::basic_ostream<char>::put (&cout, prephitmp_1748);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_1016);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M3 SUB - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1037);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1053 = OBJ_TYPE_REF(_1047;_1037->6) (_1037, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _979 = std::basic_ostream<char>::put (&cout, prephitmp_1734);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_979);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M3 MULT - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1056);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1072 = OBJ_TYPE_REF(_1066;_1056->6) (_1056, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _971 = std::basic_ostream<char>::put (&cout, prephitmp_1677);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_971);
+MatMul_parDep.h:129:23: missed: statement clobbers memory: matMulStrassen (matA11, matTmp[3], matM[2]);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M3 MULT - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1075);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1091 = OBJ_TYPE_REF(_1085;_1075->6) (_1075, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _963 = std::basic_ostream<char>::put (&cout, prephitmp_1620);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_963);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M4 SUB - START", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1094);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1110 = OBJ_TYPE_REF(_1104;_1094->6) (_1094, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _955 = std::basic_ostream<char>::put (&cout, prephitmp_1563);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_955);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M4 SUB - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1113);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1129 = OBJ_TYPE_REF(_1123;_1113->6) (_1113, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _918 = std::basic_ostream<char>::put (&cout, prephitmp_174);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_918);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M4 MULT - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1132);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1148 = OBJ_TYPE_REF(_1142;_1132->6) (_1132, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _910 = std::basic_ostream<char>::put (&cout, prephitmp_179);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_910);
+MatMul_parDep.h:149:23: missed: statement clobbers memory: matMulStrassen (matA22, matTmp[4], matM[3]);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M4 MULT - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1151);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1167 = OBJ_TYPE_REF(_1161;_1151->6) (_1151, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _902 = std::basic_ostream<char>::put (&cout, prephitmp_55);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_902);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M5 ADD - START", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1170);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1186 = OBJ_TYPE_REF(_1180;_1170->6) (_1170, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _894 = std::basic_ostream<char>::put (&cout, prephitmp_192);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_894);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M5 ADD - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1189);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1205 = OBJ_TYPE_REF(_1199;_1189->6) (_1189, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _857 = std::basic_ostream<char>::put (&cout, prephitmp_69);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_857);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M5 MULT - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1208);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1224 = OBJ_TYPE_REF(_1218;_1208->6) (_1208, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _849 = std::basic_ostream<char>::put (&cout, prephitmp_70);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_849);
+MatMul_parDep.h:170:23: missed: statement clobbers memory: matMulStrassen (matTmp[5], matB22, matM[4]);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M5 MULT - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1227);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1243 = OBJ_TYPE_REF(_1237;_1227->6) (_1227, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _841 = std::basic_ostream<char>::put (&cout, prephitmp_71);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_841);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M6 SUB - START", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1246);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1262 = OBJ_TYPE_REF(_1256;_1246->6) (_1246, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _833 = std::basic_ostream<char>::put (&cout, prephitmp_72);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_833);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M6 SUB - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1265);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1281 = OBJ_TYPE_REF(_1275;_1265->6) (_1265, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _796 = std::basic_ostream<char>::put (&cout, prephitmp_2374);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_796);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M6 ADD - START", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1284);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1300 = OBJ_TYPE_REF(_1294;_1284->6) (_1284, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _788 = std::basic_ostream<char>::put (&cout, prephitmp_2377);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_788);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M6 ADD - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1303);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1319 = OBJ_TYPE_REF(_1313;_1303->6) (_1303, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _751 = std::basic_ostream<char>::put (&cout, prephitmp_2406);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_751);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M6 MULT - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1322);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1338 = OBJ_TYPE_REF(_1332;_1322->6) (_1322, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _743 = std::basic_ostream<char>::put (&cout, prephitmp_2409);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_743);
+MatMul_parDep.h:201:23: missed: statement clobbers memory: matMulStrassen (matTmp[6], matTmp[7], matM[5]);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M6 MULT - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1341);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1357 = OBJ_TYPE_REF(_1351;_1341->6) (_1341, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _735 = std::basic_ostream<char>::put (&cout, prephitmp_2412);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_735);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M7 SUB - START", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1360);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1376 = OBJ_TYPE_REF(_1370;_1360->6) (_1360, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _727 = std::basic_ostream<char>::put (&cout, prephitmp_2415);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_727);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M7 SUB - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1379);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1395 = OBJ_TYPE_REF(_1389;_1379->6) (_1379, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _690 = std::basic_ostream<char>::put (&cout, prephitmp_2444);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_690);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M7 ADD - START", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1398);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1414 = OBJ_TYPE_REF(_1408;_1398->6) (_1398, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _682 = std::basic_ostream<char>::put (&cout, prephitmp_2447);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_682);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M7 ADD - END", 12);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1417);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1433 = OBJ_TYPE_REF(_1427;_1417->6) (_1417, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _645 = std::basic_ostream<char>::put (&cout, prephitmp_2476);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_645);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M7 MULT - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1436);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1452 = OBJ_TYPE_REF(_1446;_1436->6) (_1436, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _637 = std::basic_ostream<char>::put (&cout, prephitmp_2479);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_637);
+MatMul_parDep.h:232:23: missed: statement clobbers memory: matMulStrassen (matTmp[8], matTmp[9], matM[6]);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "M7 MULT - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1455);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1471 = OBJ_TYPE_REF(_1465;_1455->6) (_1455, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _629 = std::basic_ostream<char>::put (&cout, prephitmp_2482);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_629);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C11 ADD1 - START", 16);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1474);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1490 = OBJ_TYPE_REF(_1484;_1474->6) (_1474, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _621 = std::basic_ostream<char>::put (&cout, prephitmp_2485);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_621);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C11 ADD1 - END", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1493);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1509 = OBJ_TYPE_REF(_1503;_1493->6) (_1493, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _584 = std::basic_ostream<char>::put (&cout, prephitmp_2514);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_584);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C11 SUB1 - START", 16);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1512);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1528 = OBJ_TYPE_REF(_1522;_1512->6) (_1512, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _576 = std::basic_ostream<char>::put (&cout, prephitmp_2517);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_576);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C11 SUB1 - END", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1531);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1547 = OBJ_TYPE_REF(_1541;_1531->6) (_1531, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _539 = std::basic_ostream<char>::put (&cout, prephitmp_2546);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_539);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C11 ADD2 - START", 16);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1550);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1566 = OBJ_TYPE_REF(_1560;_1550->6) (_1550, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _531 = std::basic_ostream<char>::put (&cout, prephitmp_2549);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_531);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C11 ADD2 - END", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1569);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1585 = OBJ_TYPE_REF(_1579;_1569->6) (_1569, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _494 = std::basic_ostream<char>::put (&cout, prephitmp_2578);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_494);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C12 ADD - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1588);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1604 = OBJ_TYPE_REF(_1598;_1588->6) (_1588, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _486 = std::basic_ostream<char>::put (&cout, prephitmp_2581);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_486);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C12 ADD - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1607);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1623 = OBJ_TYPE_REF(_1617;_1607->6) (_1607, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _449 = std::basic_ostream<char>::put (&cout, prephitmp_2612);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_449);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C21 ADD - START", 15);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1626);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1642 = OBJ_TYPE_REF(_1636;_1626->6) (_1626, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _441 = std::basic_ostream<char>::put (&cout, prephitmp_2615);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_441);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C21 ADD - END", 13);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1645);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1661 = OBJ_TYPE_REF(_1655;_1645->6) (_1645, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _404 = std::basic_ostream<char>::put (&cout, prephitmp_2647);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_404);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C22 SUB1 - START", 16);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1664);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1680 = OBJ_TYPE_REF(_1674;_1664->6) (_1664, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _396 = std::basic_ostream<char>::put (&cout, prephitmp_2650);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_396);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C22 SUB1 - END", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1683);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1699 = OBJ_TYPE_REF(_1693;_1683->6) (_1683, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _359 = std::basic_ostream<char>::put (&cout, prephitmp_2679);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_359);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C22 ADD1 - START", 16);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1702);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1718 = OBJ_TYPE_REF(_1712;_1702->6) (_1702, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _351 = std::basic_ostream<char>::put (&cout, prephitmp_2682);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_351);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C22 ADD1 - END", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1721);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1737 = OBJ_TYPE_REF(_1731;_1721->6) (_1721, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _314 = std::basic_ostream<char>::put (&cout, prephitmp_2711);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_314);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C22 ADD2 - START", 16);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1740);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1756 = OBJ_TYPE_REF(_1750;_1740->6) (_1740, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _306 = std::basic_ostream<char>::put (&cout, prephitmp_2714);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_306);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "C22 ADD2 - END", 14);
+/usr/include/c++/9/bits/locale_facets.h:876:21: missed: statement clobbers memory: std::ctype<char>::_M_widen_init (_1759);
+/usr/include/c++/9/bits/locale_facets.h:877:23: missed: statement clobbers memory: _1775 = OBJ_TYPE_REF(_1769;_1759->6) (_1759, 10);
+/usr/include/c++/9/ostream:600:19: missed: statement clobbers memory: _269 = std::basic_ostream<char>::put (&cout, prephitmp_2746);
+/usr/include/c++/9/ostream:622:25: missed: statement clobbers memory: std::basic_ostream<char>::flush (_269);
+MatMul_cache.h:24:23: missed: couldn't vectorize loop
+MatMul_cache.h:24:23: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+MatMul_cache.h:25:27: missed: couldn't vectorize loop
+MatMul_cache.h:25:27: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+MatMul_cache.h:37:31: missed: couldn't vectorize loop
+MatMul_cache.h:37:31: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+MatMul_cache.h:49:37: missed: couldn't vectorize loop
+MatMul_cache.h:49:37: missed: not vectorized: multiple nested loops.
+MatMul_cache.h:50:41: missed: couldn't vectorize loop
+MatMul_cache.h:53:99: missed: not vectorized: complicated access pattern.
+MatMul_cache.h:52:45: missed: couldn't vectorize loop
+MatMul_cache.h:52:45: missed: Loop costings may not be worthwhile.
+MatMul_cache.h:40:35: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized:not suitable for strided load _155 = *_154;
+MatMul_cache.h:41:39: missed: couldn't vectorize loop
+MatMul_cache.h:41:39: missed: Loop costings may not be worthwhile.
+MatMul_cache.h:28:31: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:20:78: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:54:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul_simple.h:46:23: missed: couldn't vectorize loop
+MatMul.h:19:77: missed: not vectorized: complicated access pattern.
+MatMul.h:77:15: missed: couldn't vectorize loop
+MatMul.h:77:15: missed: not vectorized: number of iterations cannot be computed.
+MatMul_cache.h:98:26: missed: statement clobbers memory: matMulSimpleCache (matA, matB, matC);
+MatMul_cache.h:133:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[0], matTmp[1], matM[0]);
+MatMul_cache.h:137:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[2], matB11, matM[1]);
+MatMul_cache.h:137:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[2], matB11, matM[1]);
+MatMul_cache.h:141:24: missed: statement clobbers memory: matMulStrassenCache (matA11, matTmp[3], matM[2]);
+MatMul_cache.h:141:24: missed: statement clobbers memory: matMulStrassenCache (matA11, matTmp[3], matM[2]);
+MatMul_cache.h:145:24: missed: statement clobbers memory: matMulStrassenCache (matA22, matTmp[4], matM[3]);
+MatMul_cache.h:145:24: missed: statement clobbers memory: matMulStrassenCache (matA22, matTmp[4], matM[3]);
+MatMul_cache.h:149:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[5], matB22, matM[4]);
+MatMul_cache.h:149:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[5], matB22, matM[4]);
+MatMul_cache.h:154:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[6], matTmp[7], matM[5]);
+MatMul_cache.h:159:24: missed: statement clobbers memory: matMulStrassenCache (matTmp[8], matTmp[9], matM[6]);
+main.cpp:20:10: missed: statement clobbers memory: srand (42);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Allocation", 10);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (&cout);
+MatMul.h:32:46: missed: statement clobbers memory: _46 = operator new [] (33554432);
+MatMul.h:32:46: missed: statement clobbers memory: _49 = operator new [] (33554432);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matRef, 2048);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matRef, 2048);
+main.cpp:35:17: missed: statement clobbers memory: allocateMBuf (2048);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Randomization", 13);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (&cout);
+main.cpp:38:17: missed: statement clobbers memory: randomizeMat (matA);
+main.cpp:38:17: missed: statement clobbers memory: randomizeMat (matA);
+main.cpp:39:17: missed: statement clobbers memory: randomizeMat (matB);
+main.cpp:39:17: missed: statement clobbers memory: randomizeMat (matB);
+main.cpp:60:18: missed: statement clobbers memory: std::operator<< <std::char_traits<char> > (&cout, "Mult - ");
+main.cpp:61:58: missed: statement clobbers memory: start = std::chrono::_V2::system_clock::now ();
+main.cpp:62:17: missed: statement clobbers memory: matMulSimple (matA, matB, matRef);
+main.cpp:63:56: missed: statement clobbers memory: end = std::chrono::_V2::system_clock::now ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Execution time: ", 16);
+/usr/include/c++/9/ostream:167:29: missed: statement clobbers memory: _54 = std::basic_ostream<char>::_M_insert<long int> (&cout, _52);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_54, " ms", 3);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (_54);
+main.cpp:70:18: missed: statement clobbers memory: std::operator<< <std::char_traits<char> > (&cout, "Strass - ");
+main.cpp:71:53: missed: statement clobbers memory: start = std::chrono::_V2::system_clock::now ();
+main.cpp:72:19: missed: statement clobbers memory: matMulStrassen (matA, matB, matC);
+main.cpp:73:51: missed: statement clobbers memory: end = std::chrono::_V2::system_clock::now ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Execution time: ", 16);
+/usr/include/c++/9/ostream:167:29: missed: statement clobbers memory: _57 = std::basic_ostream<char>::_M_insert<long int> (&cout, _55);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_57, " ms", 3);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (_57);
+main.cpp:76:15: missed: statement clobbers memory: compareMat (matRef, matC);
+MatMul.h:89:15: missed: statement clobbers memory: operator delete [] (matM_buf.9_59);
+main.cpp:81:17: missed: statement clobbers memory: allocateMBuf (2048);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (mat_21);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:87:18: missed: statement clobbers memory: std::operator<< <std::char_traits<char> > (&cout, "Strass Cache Opt - ");
+main.cpp:88:53: missed: statement clobbers memory: start = std::chrono::_V2::system_clock::now ();
+main.cpp:89:24: missed: statement clobbers memory: matMulStrassenCache (matA, matB, matC);
+main.cpp:90:51: missed: statement clobbers memory: end = std::chrono::_V2::system_clock::now ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Execution time: ", 16);
+/usr/include/c++/9/ostream:167:29: missed: statement clobbers memory: _64 = std::basic_ostream<char>::_M_insert<long int> (&cout, _62);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_64, " ms", 3);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (_64);
+main.cpp:93:15: missed: statement clobbers memory: compareMat (matRef, matC);
+MatMul.h:89:15: missed: statement clobbers memory: operator delete [] (matM_buf.9_67);
+main.cpp:98:17: missed: statement clobbers memory: allocateMBuf (2048);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (mat_65);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:104:18: missed: statement clobbers memory: std::operator<< <std::char_traits<char> > (&cout, "Par Strass - ");
+main.cpp:105:53: missed: statement clobbers memory: start = std::chrono::_V2::system_clock::now ();
+main.cpp:106:22: missed: statement clobbers memory: matMulStrassenPar (matA, matB, matC);
+main.cpp:107:51: missed: statement clobbers memory: end = std::chrono::_V2::system_clock::now ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Execution time: ", 16);
+/usr/include/c++/9/ostream:167:29: missed: statement clobbers memory: _71 = std::basic_ostream<char>::_M_insert<long int> (&cout, _69);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_71, " ms", 3);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (_71);
+main.cpp:110:15: missed: statement clobbers memory: compareMat (matRef, matC);
+MatMul.h:89:15: missed: statement clobbers memory: operator delete [] (matM_buf.9_72);
+main.cpp:115:17: missed: statement clobbers memory: allocateMBuf (2048);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (mat_127);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:16:5: missed: statement clobbers memory: _Z11allocateMatP5Mat_tib.part.0 (&matC, 2048);
+main.cpp:121:18: missed: statement clobbers memory: std::operator<< <std::char_traits<char> > (&cout, "Par Depend Strass - ");
+main.cpp:122:53: missed: statement clobbers memory: start = std::chrono::_V2::system_clock::now ();
+main.cpp:123:25: missed: statement clobbers memory: matMulStrassenParDep (matA, matB, matC);
+main.cpp:124:51: missed: statement clobbers memory: end = std::chrono::_V2::system_clock::now ();
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cout, "Execution time: ", 16);
+/usr/include/c++/9/ostream:167:29: missed: statement clobbers memory: _75 = std::basic_ostream<char>::_M_insert<long int> (&cout, _73);
+/usr/include/c++/9/ostream:570:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (_75, " ms", 3);
+/usr/include/c++/9/ostream:113:13: missed: statement clobbers memory: std::endl<char, std::char_traits<char> > (_75);
+main.cpp:127:15: missed: statement clobbers memory: compareMat (matRef, matC);
+MatMul.h:89:15: missed: statement clobbers memory: operator delete [] (matM_buf.9_77);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (_46);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (_49);
+MatMul.h:37:19: missed: statement clobbers memory: operator delete [] (mat_68);
+/usr/include/c++/9/iostream:74:25: missed: statement clobbers memory: std::ios_base::Init::Init (&__ioinit);
+/usr/include/c++/9/iostream:74:25: missed: statement clobbers memory: __cxa_atexit (__dt_comp , &__ioinit, &__dso_handle);

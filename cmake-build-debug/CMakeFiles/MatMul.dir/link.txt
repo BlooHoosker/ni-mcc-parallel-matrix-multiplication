@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MatMul.dir/main.cpp.o  -o MatMul 

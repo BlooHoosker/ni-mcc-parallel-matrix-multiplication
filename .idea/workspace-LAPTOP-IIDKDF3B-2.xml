@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="MatMul" targetName="MatMul" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03048176-12df-454e-8411-3aa512bbee63" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectId" id="2GVOwFKoV4BTZQOlbL18fcb7341" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marti/OneDrive/CVUT/Magistr/MCC/SJ1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\CVUT\Magistr\MCC\MatMul" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MatMul" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2048 512" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatMul" TARGET_NAME="MatMul" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatMul" RUN_TARGET_NAME="MatMul">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03048176-12df-454e-8411-3aa512bbee63" name="Changes" comment="" />
+      <created>1666470520430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666470520430</updated>
+      <workItem from="1666470522954" duration="4707000" />
+      <workItem from="1666546003233" duration="9149000" />
+      <workItem from="1666689457792" duration="1926000" />
+      <workItem from="1667415088947" duration="3907000" />
+      <workItem from="1667851835779" duration="10939000" />
+      <workItem from="1667943427754" duration="12686000" />
+      <workItem from="1668008052154" duration="646000" />
+      <workItem from="1668025992546" duration="7454000" />
+      <workItem from="1668079467773" duration="455000" />
+      <workItem from="1668081074362" duration="3191000" />
+      <workItem from="1668792218413" duration="20912000" />
+      <workItem from="1668886049591" duration="1489000" />
+      <workItem from="1668981551664" duration="6705000" />
+      <workItem from="1669303531276" duration="1322000" />
+      <workItem from="1669508786557" duration="11548000" />
+      <workItem from="1669574959064" duration="234000" />
+      <workItem from="1669583846008" duration="5333000" />
+      <workItem from="1669755680777" duration="4942000" />
+      <workItem from="1669852978573" duration="2328000" />
+      <workItem from="1669858864645" duration="1369000" />
+      <workItem from="1670179957523" duration="8321000" />
+      <workItem from="1670283416487" duration="605000" />
+      <workItem from="1670512540491" duration="1018000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changing matrix structure to 1D array">
+      <created>1667417638515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667417638515</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Matrixes M and TMP now have big buffer. No allocation/deallocation within recursion">
+      <created>1667862157882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667862157882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Parallel version of Strass algorithm using for parallelism within mult, add, sub.">
+      <created>1667862568484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667862568484</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Parallel version of Strassen algo using dependencies. Only works on one depth. &#10;More depths returns bad results. But it is still faster than the previous version.">
+      <created>1667959565893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667959565893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Split different versions into different files.&#10;Created cache optimized version.&#10;Fixed parallel dependencies version.&#10;Updated working with buffer for seq versions.&#10;All versions are now working and return correct result.&#10;&#10;Added makefile.">
+      <created>1668821882857</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668821882857</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Most up to date version with issue of parallel version being super slow">
+      <created>1669755751090</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669755751090</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed parallel version. Main problem was int used for sum in Mult/Add/Sub while working with float. &#10;&#10;Some other minor enhancements like schedule(auto) and splitting sum and assignment in for loops in Mult/Add/Sub&#10;&#10;Also using collapse 2">
+      <created>1669855592204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669855592204</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final version">
+      <created>1670188839942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670188839942</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Final version - fix">
+      <created>1670190001341</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670190001341</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Final version - with restrict">
+      <created>1670190064836</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670190064836</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changing matrix structure to 1D array" />
+    <MESSAGE value="Matrixes M and TMP now have big buffer. No allocation/deallocation within recursion" />
+    <MESSAGE value="Parallel version of Strass algorithm using for parallelism within mult, add, sub." />
+    <MESSAGE value="Parallel version of Strassen algo using dependencies. Only works on one depth. &#10;More depths returns bad results. But it is still faster than the previous version." />
+    <MESSAGE value="Split different versions into different files.&#10;Created cache optimized version.&#10;Fixed parallel dependencies version.&#10;Updated working with buffer for seq versions.&#10;All versions are now working and return correct result.&#10;&#10;Added makefile." />
+    <MESSAGE value="Most up to date version with issue of parallel version being super slow" />
+    <MESSAGE value="Fixed parallel version. Main problem was int used for sum in Mult/Add/Sub while working with float. &#10;&#10;Some other minor enhancements like schedule(auto) and splitting sum and assignment in for loops in Mult/Add/Sub&#10;&#10;Also using collapse 2" />
+    <MESSAGE value="Final version" />
+    <MESSAGE value="Final version - fix" />
+    <MESSAGE value="Final version - with restrict" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version - with restrict" />
+  </component>
+</project>
